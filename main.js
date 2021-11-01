@@ -54,4 +54,3 @@ ipcMain.on('restart_app', () => {
     autoUpdater.quitAndInstall();
 });
 
-// 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
