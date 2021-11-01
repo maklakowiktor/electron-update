@@ -1,0 +1,24 @@
+{
+  "name": "update-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.3.0",
+    "electron-builder": "^22.13.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.9"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/maklakowiktor/electron-update.git"
+  }
+}
